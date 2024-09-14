@@ -391,9 +391,9 @@ public class DeadMorose extends TelegramLongPollingBot {
     public void scheduleAddressAssignmentExample() {
         Calendar calendar = Calendar.getInstance();
         calendar.set(Calendar.MONTH, Calendar.SEPTEMBER);
-        calendar.set(Calendar.DAY_OF_MONTH, 12);
-        calendar.set(Calendar.HOUR_OF_DAY, 23);
-        calendar.set(Calendar.MINUTE, 36);
+        calendar.set(Calendar.DAY_OF_MONTH, 15);
+        calendar.set(Calendar.HOUR_OF_DAY, 10);
+        calendar.set(Calendar.MINUTE, 30);
         calendar.set(Calendar.SECOND, 0);
         Date assignmentTime = calendar.getTime();
 
